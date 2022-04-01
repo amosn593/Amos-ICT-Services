@@ -1,10 +1,22 @@
 <template>
+  <TopNav />
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/contact">Contact Us</router-link>
   </nav>
   <router-view />
 </template>
+<script>
+// @ is an alias to /src
+import TopNav from "@/components/TopNav.vue";
+export default {
+  name: "App",
+  components: {
+    TopNav,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {

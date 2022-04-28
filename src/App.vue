@@ -7,14 +7,17 @@
     <router-link to="/contact-us">Contact Us</router-link>
   </nav>
   <router-view />
+  <Footer />
 </template>
 <script>
 // @ is an alias to /src
 import TopNav from "@/components/TopNav.vue";
+import Footer from "@/components/FooterView.vue";
 export default {
   name: "App",
   components: {
     TopNav,
+    Footer,
   },
 };
 </script>

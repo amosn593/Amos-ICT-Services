@@ -115,7 +115,7 @@
 <style lang="scss" scoped>
 .mycard-title {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(175, 55, 7);
 }
 .my-card {

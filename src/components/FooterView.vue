@@ -11,8 +11,13 @@
         </div>
         <div class="col-md-4">
           <h6 class="py-3">AMOS ICT SERVICES</h6>
+          <p>&copy; 2022</p>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h6 class="py-3">Our Contacts</h6>
+          <p>0702240787</p>
+          <p>amosndonga@gmail.com</p>
+        </div>
       </div>
     </div>
   </footer>
@@ -28,11 +33,16 @@ export default {
 
 <style lang="scss" scoped>
 .my-footer {
-  background-color: black;
+  background-color: rgb(37, 35, 35);
   color: #fff;
-  height: 25vh;
+  height: 30vh;
 }
 
+@media screen and (max-width: 480px) {
+  .my-footer {
+    height: 50vh;
+  }
+}
 .faicon {
   margin: 0 15px;
   height: 25px;

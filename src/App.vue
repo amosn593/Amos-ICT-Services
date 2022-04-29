@@ -3,12 +3,12 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/our-services">Our Services</router-link> |
-    <router-link to="/our-products">Our Products</router-link> |
+    <router-link to="/our-products">Our Work</router-link> |
     <router-link to="/contact-us">Contact Us</router-link>
   </nav>
   <router-view />
   <Footer />
-</template>
+</template> 
 <script>
 // @ is an alias to /src
 import TopNav from "@/components/TopNav.vue";

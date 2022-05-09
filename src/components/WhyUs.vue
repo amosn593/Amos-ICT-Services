@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h4 class="py-4">Why Choose Us</h4>
+     <hr class="my-4" />
     <div class="row choose-us">
       <div class="col-md-4">
         <img src="../assets/like.png" alt="customer satsfaction" />

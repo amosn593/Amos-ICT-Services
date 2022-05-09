@@ -4,14 +4,39 @@
       <div class="row">
         <div class="col-md-4">
           <h6 class="py-3">Social Links</h6>
-          <fa :icon="['fab', 'github']" class="faicon github" />
-          <fa :icon="['fab', 'facebook']" class="faicon facebook" />
-          <fa :icon="['fab', 'twitter']" class="faicon twitter" />
-          <fa :icon="['fab', 'youtube']" class="faicon youtube" />
+          <a
+            class="social-links"
+            href="https://github.com/amosn593 "
+            target="_blank "
+          >
+            <fa :icon="['fab', 'github']" class="faicon github" />
+          </a>
+          <a
+            class="social-links"
+            href="https://www.facebook.com/ndongaamos "
+            target="_blank "
+          >
+            <fa :icon="['fab', 'facebook']" class="faicon facebook" />
+          </a>
+          <a
+            class="social-links"
+            href="https://twitter.com/amosn593 "
+            target="_blank "
+          >
+            <fa :icon="['fab', 'twitter']" class="faicon twitter" />
+          </a>
+          <a
+            class="social-links"
+            href="https://www.youtube.com/channel/UCoLUbL1GkxaCq0xIAkTtjEw"
+            target="_blank "
+          >
+            <fa :icon="['fab', 'youtube']" class="faicon youtube" />
+          </a>
         </div>
         <div class="col-md-4">
           <h6 class="py-3">AMOS ICT SERVICES</h6>
           <p>&copy; 2022</p>
+          <p>All Rights Reserved</p>
         </div>
         <div class="col-md-4">
           <h6 class="py-3">Our Contacts</h6>
@@ -32,6 +57,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.social-links {
+  text-decoration: none;
+  color: #fff;
+}
 .my-footer {
   background-color: rgb(37, 35, 35);
   color: #fff;

@@ -17,7 +17,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/ServicesView.vue"),
   },
   {
-    path: "/our-products",
+    path: "/our-work",
     name: "products",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

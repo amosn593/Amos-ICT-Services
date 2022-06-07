@@ -2,12 +2,24 @@
   <div class="product">
     <h4 class="text-center mt-4 py-3">OUR WORK</h4>
     <div class="container">
-      <div class="row">
-        <h5 class="text-center mt-3 mb-3 work-title">
-          LIBRARY MANAGEMENT SYSTEM(LMS)
+      <div class="row mb-5 mt-3">
+        <h5 class="text-center my-2 work-title">
+          LIBRARY MANAGEMENT SYSTEM (LMS)
         </h5>
-        <div class="col-md-8"></div>
-        <div class="col-md-4">
+        <div class="col-md-8">
+          <div class="container mt-3">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Y5JLJFGZS0c?start=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
           <p>
             LMS is modern web portal application for managing and maintaining
             learning resources e.g books
@@ -19,16 +31,28 @@
           <p>You can generate reports</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-4 mt-4">
         <h5 class="text-center mt-3 mb-3 work-title">
           ICT ASSET MANAGEMENT SYSTEM (IAMS)
         </h5>
-        <div class="col-md-8"></div>
-        <div class="col-md-4">
-          <P
+        <div class="col-md-8">
+          <div class="container mt-3">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/l_wD9iVTu50?start=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
+          <PS
             >IAMS is a enterprise ready web application for maintaining,
             managing and monitoring ICT assets
-          </P>
+          </PS>
           <p>
             IAMS solves manual process of ICT asset deployment, movement and
             inventory taking

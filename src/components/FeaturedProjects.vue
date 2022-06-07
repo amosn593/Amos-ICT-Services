@@ -42,7 +42,7 @@
           <div class="card-body">
             <p class="card-text">website.</p>
             <a
-              href="https://www.akikiinterior.com/"
+              href="https://akikiinterior.herokuapp.com/"
               class="stretched1-link"
               target="_blank "
               ><button type="button" class="btn btn-secondary">

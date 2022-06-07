@@ -1,12 +1,12 @@
 <template>
   <div class="contact">
-    <h4 class="text-center mt-4 py-3">Contact Us</h4>
+    <h4 class="text-center mt-4 py-3">CONTACT US</h4>
   </div>
   <div class="container contact-us">
     <div class="row">
       <div class="col-md-6">
         <h5 class="heading">Address</h5>
-        <p>Texas Building, Nyali Road</p>
+        <p>Texas Building, Links Road</p>
         <p>Nyali, Mombasa</p>
         <br />
         <br />

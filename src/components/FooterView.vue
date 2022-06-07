@@ -1,5 +1,5 @@
 <template>
-  <footer class="my-footer mt-5 py-3">
+  <footer class="my-footer mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -40,6 +40,8 @@
         </div>
         <div class="col-md-4">
           <h6 class="py-3">Our Contacts</h6>
+          <p>Texas Building</p>
+          <p>Links Road, Nyali</p>
           <p>0702240787</p>
           <p>amosndonga@gmail.com</p>
         </div>
@@ -62,14 +64,16 @@ export default {
   color: #fff;
 }
 .my-footer {
+  padding: 30px 50px;
   background-color: rgb(37, 35, 35);
   color: #fff;
-  height: 30vh;
+  //height: 35vh;
 }
 
 @media screen and (max-width: 480px) {
   .my-footer {
-    height: 50vh;
+    //height: 50vh;
+    padding: 30px 50px;
   }
 }
 .faicon {

@@ -1,6 +1,6 @@
 <template>
   <div class="services">
-    <h4 class="text-center mt-4 py-3">Our Services</h4>
+    <h4 class="text-center mt-4 py-3">OUR SERVICES</h4>
   </div>
   <div class="container">
     <div class="row py-3">

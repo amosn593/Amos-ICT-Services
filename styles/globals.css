@@ -24,18 +24,38 @@ li {
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
+  background-color: rgb(37, 35, 35);
+  color: #fff;
   justify-content: center;
   align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.social-links {
+  text-decoration: none;
+  color: #fff;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.faicon {
+  margin: 0 15px;
+  height: 25px;
+  transition: transform 0.2 ease;
+}
+
+.faicon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.youtube:hover {
+  color: red;
+}
+
+.twitter:hover {
+  color: rgb(54, 54, 209);
+}
+.facebook:hover {
+  color: rgb(10, 10, 241);
+}
+.github:hover {
+  color: grey;
 }

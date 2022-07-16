@@ -1,0 +1,22 @@
+#navigation {
+  background-color: #8f8d8d !important;
+  border-bottom: 1px solid black;
+
+  a {
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    margin: 1px 5px;
+    text-decoration: none;
+
+    &:active {
+      color: #df2339 !important;
+    }
+    &:hover {
+      color: #df2339 !important;
+    }
+  }
+}
+
+.active {
+  color: #df2339 !important;
+}

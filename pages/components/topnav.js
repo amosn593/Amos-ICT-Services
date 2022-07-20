@@ -1,4 +1,9 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import the icons you need
+import {
+  faPhone, faMailBulk
+} from '@fortawesome/free-solid-svg-icons';
 
 function topnav() {
   return (

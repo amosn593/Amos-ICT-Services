@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 function featured() {
   return (
@@ -67,21 +67,21 @@ function featured() {
         <div className="col-md-3 my-2 py-2">
           <div className="card">
             <div className="card-header d-flex justify-content-around">
-              <h6 className="card-text card-desc">E-kuku website</h6>
+              <h6 className="card-text card-desc">Gym Fitness Web App</h6>
             </div>
             <Image
               className="card-img-top card-image"
-              src="/images/ekuku.png"
-              alt="E-kuku website"
+              src="/images/banner.png"
+              alt="Gym Fitness Web App"
               loading="lazy"
               layout="responsive"
               width={80}
               height={60}
             />
             <div className="card-body">
-              <p className="card-text">e-commerce.</p>
+              <p className="card-text">website.</p>
               <a
-                href="https://e-kuku.co.ke/"
+                href="https://gym-fitness-app.vercel.app/"
                 className="stretched1-link"
                 target="_blank "
               >

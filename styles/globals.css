@@ -19,6 +19,36 @@ li {
   list-style: none;
 }
 
+.mycard-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(175, 55, 7);
+}
+
+.my-card {
+  transition: transform 0.3s;
+}
+
+.mycard-img {
+  height: 174px;
+}
+.my-card:hover {
+  transform: scale(1.1);
+}
+
+.work-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(175, 55, 7);
+}
+
+@media screen and (max-width: 480px) {
+  iframe {
+    width: 350px;
+    height: 197px;
+  }
+}
+
 .footer {
   display: flex;
   flex: 1;

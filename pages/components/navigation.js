@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import styles from "../../styles/navigation.module.scss";
 
-function navigation() {
+function Navigation() {
   const router = useRouter();
   return (
     <nav
@@ -74,4 +74,4 @@ function navigation() {
   );
 }
 
-export default navigation;
+export default Navigation;

@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 function contactus() {
   return (
@@ -18,7 +18,7 @@ function contactus() {
             </p>
             <p className="text-center">+254702240787</p>
             <p className="text-center">+254776464012</p>
-            <p className="text-center mb-2">info@amosndonga.com</p>
+
             <p className="text-center mb-2">amosndonga@gamil.com</p>
           </div>
           <div className="col-md-6">

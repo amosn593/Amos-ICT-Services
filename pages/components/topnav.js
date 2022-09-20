@@ -3,13 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import the icons you need
 import {
   faPhone,
-  faMailBulk,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
 
 function topnav() {
   return (
-    <div className="container-fluid mt-3">
+    <div className="container-fluid mt-2" >
       <div className="row">
         <div className="col-md-3 text-center">
           <Image

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import styles from "../../styles/navigation.module.scss";
+import styles from "../../styles/Navigation.module.scss";
 
 function Navigation() {
   const router = useRouter();

@@ -21,6 +21,7 @@ function intro() {
               height={160}
             />
           </div>
+          
         </div>
         <div className="col-md-6">
           <h4 className="mt-4">YOUR ICT SERVICES HUB</h4>
